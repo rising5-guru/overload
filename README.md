@@ -1,4 +1,4 @@
-<h1 align="center">📡 DoS Tool by Rising </h1> 
+<h1 align="center">📡 DoS Tool by Rising.guru </h1> 
 <div align="center">
 
 </div>
@@ -39,7 +39,7 @@ If you don't have it, then execute:
 ```
 sudo apt update
 sudo apt install python3 python3-pip git -y
-git clone https://github.com/RisingLamp/overload
+git clone https://github.com/rising5-guru/overload.git
 cd overload/
 
 make setup
@@ -57,7 +57,7 @@ make run
 pkg update
 pkg install python3 python3-pip git -y
 
-git clone https://github.com/RisingLamp/overload
+git clone https://github.com/rising5-guru/overload.git
 cd overload/
 
 pip install -r requirements.txt
@@ -81,7 +81,7 @@ python3 overload.py
 │   ├───METHOD: HTTP
 │   ├───TIME: 600
 │   ├───THREADS: 800
-│   └───URL: https://github.com/RisingLamp/overload
+│   └───URL: https://github.com/rising5-guru/overload
 ```
 
 `Slowloris`: Just like an HTTP attack, Slowloris also aims to block other users from accessing a certain resource, but it does that by connecting virtual hosts with a slow connection to the victim. The victim will eventually have a lot of slow connections open and will block new users from accessing its resources.
@@ -93,7 +93,7 @@ python3 overload.py
 │   ├───TIME: 300
 │   ├───THREADS: 200
 │   ├───SLEEP TIME: 15
-│   └───URL: https://github.com/RisingLamp/overload
+│   └───URL: https://github.com/rising5-guru/overload
 ```
 
 Both `HTTP` and `Slowloris` attacks have a proxy version. If you choose to use proxy, then the threads will initialize and connect to elite-anonymity public proxies, and if not, your IP will be used on the requests. We do not own the proxy servers and do not respond for anything that they may do (like leaking your actual IP); they are hosted by volunteers and their addresses are retrieved through the [Proxy Scrape API](https://docs.proxyscrape.com/).
